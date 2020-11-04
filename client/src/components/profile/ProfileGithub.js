@@ -10,8 +10,8 @@ class ProfileGithub extends Component {
         super(props)
         this.myRef = React.createRef();
         this.state = {
-            clientId: '4b0ecd222d4ab51eb4d2',
-            clientSecret: 'dc0531a2885db274b070a69c092727491ad3accc',
+            clientId: '',
+            clientSecret: '',
             count: 5,
             sort: 'created: asc',
             repos: []
